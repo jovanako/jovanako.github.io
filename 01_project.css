@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+
+#main-heading {
+  font-family:  'Calligraffitti', cursive;
+  font-size: 80px;
+  color: rgb(48, 1, 41);
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  margin-top: 86px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  background-color: rgb(99, 97, 97);
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  background-color: rgb(48, 1, 41);
+}
+
+#main-title {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 80px;
+  color: rgb(48, 1, 41);
+  margin-top: -50px;
+}
+
+#subtitle {
+    font-size: 30px;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    color: rgb(48, 1, 41);
+    text-align: center;
+}
+
+.titles {
+  display: block;
+}
+
+#Jovana-image {
+  width: 700px;
+  border-radius: 20px;
+}
+
+li {
+  display: inline;
+  float: left;
+  width: 250px;
+  text-decoration: none;
+}
+
+li a {
+  display: flex;
+  padding: 16px;
+  font-family: 'Quicksand', Helvetica, sans-serif;
+  color: rgb(48, 1, 41);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  position: fixed;  
+  z-index: 1;
+  top: 0;
+  background-color: rgb(99, 97, 97); 
+}
+
+#navbar {
+  margin-right: 70px;
+}
