@@ -73,7 +73,7 @@ li a:hover {
   margin-right: 70px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1419px){
   
   #container {
     flex-direction: column;
