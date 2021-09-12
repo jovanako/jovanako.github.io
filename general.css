@@ -16,20 +16,21 @@ body {
 }
 
 #navbar {
-  margin-right: -60px;
+  text-align: center;
 }
 
 li {
   display: inline;
-  float: left;
-  width: 250px;
+  float: left;  
   text-decoration: none;
 }
 
 li a {
-  display: flex;
-  padding: 16px;
-  width: 120px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 30px;
+  padding-left: 30px;
   color: white;
   font-size: 30px;
   text-decoration: none;
