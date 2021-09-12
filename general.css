@@ -5,6 +5,40 @@ body {
   font-family: 'Quicksand', Helvetica, sans-serif;
 }
 
+#header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  position: fixed;  
+  z-index: 1;
+  top: 0;
+  background-color: #7F7F7F; 
+}
+
+#navbar {
+  margin-right: -60px;
+}
+
+li {
+  display: inline;
+  float: left;
+  width: 250px;
+  text-decoration: none;
+}
+
+li a {
+  display: flex;
+  padding: 16px;
+  width: 120px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F2B138;
+}
+
 h1 {
   font-size: 80px;
   text-align: center;

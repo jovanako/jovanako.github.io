@@ -39,40 +39,6 @@
   border-radius: 20px;
 }
 
-li {
-  display: inline;
-  float: left;
-  width: 250px;
-  text-decoration: none;
-}
-
-li a {
-  display: flex;
-  padding: 16px;
-  width: 120px;
-  color: white;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #F2B138;
-}
-
-#header {
-  display: flex;
-  justify-content: flex-end;
-  width: 100vw;
-  position: fixed;  
-  z-index: 1;
-  top: 0;
-  background-color: #7F7F7F; 
-}
-
-#navbar {
-  margin-right: 70px;
-}
-
 @media screen and (max-width: 1419px){
   
   #container {
