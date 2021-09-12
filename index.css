@@ -1,12 +1,5 @@
-body {
-  margin: 0;
-}
-
-
 #main-heading {
-  font-family:  'Calligraffitti', cursive;
-  font-size: 80px;
-  color: rgb(48, 1, 41);
+  margin-top: -50px;
 }
 
 #container {
@@ -21,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 50vw;
-  background-color: rgb(99, 97, 97);
+  background-color: #7F7F7F;
 }
 
 .right {
@@ -29,20 +22,11 @@ body {
   justify-content: center;
   align-items: center;
   width: 50vw;
-  background-color: rgb(48, 1, 41);
-}
-
-#main-title {
-  font-family: 'Calligraffitti', cursive;
-  font-size: 80px;
-  color: rgb(48, 1, 41);
-  margin-top: -50px;
+  background-color: #F2B138;
 }
 
 #subtitle {
     font-size: 30px;
-    font-family: 'Quicksand', Helvetica, sans-serif;
-    color: rgb(48, 1, 41);
     text-align: center;
 }
 
@@ -65,10 +49,14 @@ li {
 li a {
   display: flex;
   padding: 16px;
-  font-family: 'Quicksand', Helvetica, sans-serif;
-  color: rgb(48, 1, 41);
+  width: 120px;
+  color: white;
   font-size: 30px;
   text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F2B138;
 }
 
 #header {
@@ -78,7 +66,7 @@ li a {
   position: fixed;  
   z-index: 1;
   top: 0;
-  background-color: rgb(99, 97, 97); 
+  background-color: #7F7F7F; 
 }
 
 #navbar {
