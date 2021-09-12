@@ -12,6 +12,7 @@ body {
 #container {
   height: 100vh;
   display: flex;
+  flex-direction: row;
   margin-top: 86px;
 }
 
@@ -82,4 +83,35 @@ li a {
 
 #navbar {
   margin-right: 70px;
+}
+
+@media screen and (max-width: 600px){
+  
+  #container {
+    flex-direction: column;
+    margin-top: 187px;
+    height: 100vh;
+  }
+
+  li a {
+    font-size: 20px;
+  }
+
+  #main-heading {
+    font-size: 50px;
+  }
+
+  #subtitle {
+    font-size: 20px;
+  }
+
+  #Jovana-image {
+    max-width: 400px;
+  }
+
+  .half {
+    width: 100vw;
+    height: 50vh;
+  }
+
 }
