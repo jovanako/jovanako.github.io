@@ -39,3 +39,19 @@ h1 {
   font-size: 20px;
   text-align: justify;
 }
+
+@media screen and (max-width: 819px){
+
+  #about-me-container {
+    width: 400px;
+  }
+
+  .images {
+    float: none;
+  }
+
+  #image-right {
+    float: none;
+  }
+
+}
