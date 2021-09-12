@@ -1,3 +1,7 @@
+body {
+  background-color: #F2B138;
+}
+
 #about-me-container {
   text-align: center;
   height: 100vh;
@@ -6,6 +10,8 @@
   margin-right: auto;
   margin-top: 200px;
   margin-bottom: 80px;
+  background-color: #7F7F7F;
+  padding: 50px;
 }
 
 h1 {
@@ -27,8 +33,7 @@ h1 {
 #image-right {
   float: right;
   margin-top: 10px;
-  padding-left: 15px;
-  
+  padding-left: 15px;  
 }
 
 #image03 {
@@ -52,6 +57,14 @@ h1 {
 
   #image-right {
     float: none;
+  }
+
+}
+
+@media screen and (max-width: 967px) {
+
+  li a {
+    font-size: 25px;
   }
 
 }
