@@ -1,12 +1,41 @@
 #about-me-container {
   text-align: center;
-  height: 1000px;
+  height: 100vh;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
-h2 {
-  font-size: 40px;
+h1 {
+  font-size: 60px;
+}
+
+.images {
+  width: 300px;
+  border-radius: 25px;
+  float: left;
+}
+
+.image-left {
+  margin-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+#image-right {
+  float: right;
+  margin-top: 25px;
+  padding-left: 15px;
+  
+}
+
+#image03 {
+  margin-top: 25px;
+}
+
+.about-me-text {
+  font-size: 20px;
+  text-align: justify;
 }
