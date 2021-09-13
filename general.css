@@ -5,6 +5,19 @@ body {
   font-family: 'Quicksand', Helvetica, sans-serif;
 }
 
+.text-container {
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #7F7F7F;
+  padding: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+
 #header {
   display: flex;
   justify-content: flex-end;
@@ -41,7 +54,7 @@ li a:hover {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
 }
 

@@ -1,0 +1,19 @@
+#codepen-link {
+  text-decoration: none;
+  color: #F2B138;
+  font-weight: bold;
+}
+
+#works-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+p {
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
